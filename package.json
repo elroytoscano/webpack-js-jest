@@ -1,0 +1,33 @@
+{
+  "name": "webpack-traversy",
+  "version": "1.0.0",
+  "description": "Webpack tutorial by Brad Traversy",
+  "main": "app.js",
+  "repository": "https://github.com/elroytoscano/webpack.git",
+  "author": "Elroy Toscano",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve",
+    "test": "jest --verbose --watchAll --coverage"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/plugin-transform-modules-commonjs": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@types/jest": "^27.4.1",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.5.1",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.49.11",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
