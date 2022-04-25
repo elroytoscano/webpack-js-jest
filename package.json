@@ -1,9 +1,9 @@
 {
-  "name": "webpack-traversy",
+  "name": "webpack-js-jest",
   "version": "1.0.0",
-  "description": "Webpack tutorial by Brad Traversy",
+  "description": "Basic HTML/SCSS vanilla JS project setup with Jest testing",
   "main": "app.js",
-  "repository": "https://github.com/elroytoscano/webpack.git",
+  "repository": "https://github.com/elroytoscano/webpack-js-jest.git",
   "author": "Elroy Toscano",
   "license": "MIT",
   "private": false,
